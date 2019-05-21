@@ -12,6 +12,7 @@
 		0C9BE50B2294989000A607D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C9BE50A2294989000A607D6 /* Assets.xcassets */; };
 		0C9BE50E2294989000A607D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C9BE50C2294989000A607D6 /* LaunchScreen.storyboard */; };
 		0C9BE5112294989000A607D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9BE5102294989000A607D6 /* main.m */; };
+		0C9BE51D2294A6A300A607D6 /* DVMCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9BE51C2294A6A300A607D6 /* DVMCard.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		0C9BE50D2294989000A607D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C9BE50F2294989000A607D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C9BE5102294989000A607D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C9BE51B2294A6A300A607D6 /* DVMCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DVMCard.h; sourceTree = "<group>"; };
+		0C9BE51C2294A6A300A607D6 /* DVMCard.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DVMCard.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 			children = (
 				0C9BE517229498A100A607D6 /* Resources */,
 				0C9BE518229498B000A607D6 /* Storyboards */,
+				0C9BE51E2294A6B000A607D6 /* Model */,
 			);
 			path = DeckOfCardsOBJC;
 			sourceTree = "<group>";
@@ -80,6 +84,15 @@
 				0C9BE50C2294989000A607D6 /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0C9BE51E2294A6B000A607D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0C9BE51B2294A6A300A607D6 /* DVMCard.h */,
+				0C9BE51C2294A6A300A607D6 /* DVMCard.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -108,6 +121,7 @@
 		0C9BE4F62294988F00A607D6 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = DVM;
 				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = "Austin West";
 				TargetAttributes = {
@@ -152,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C9BE51D2294A6A300A607D6 /* DVMCard.m in Sources */,
 				0C9BE5112294989000A607D6 /* main.m in Sources */,
 				0C9BE5032294988F00A607D6 /* AppDelegate.m in Sources */,
 			);
